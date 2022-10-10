@@ -1,0 +1,26 @@
+html,
+body {
+  overflow-x: clip;
+  background-color: #202125;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+:root{
+  --fs-xxl: clamp(2.5rem, 5vw + 1rem, 12rem) ;
+  
+  
+  --fs-xl: 2.5rem;
+  --fs-l: 1rem
+
+}
+
+@media (max-width: 40em){
+  :root{
+     --fs-xl: 1.5rem;
+  --fs-l: 0.5rem
+
+  }
+}

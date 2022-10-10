@@ -1,0 +1,11 @@
+.App {
+    font-family: "Trebuchet MS", Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 120px;
+    padding-left: 16px;
+}
+.tooltip-wrapper {
+    padding: 16px 120px;
+}
+

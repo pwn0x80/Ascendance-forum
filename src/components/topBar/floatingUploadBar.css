@@ -1,0 +1,79 @@
+.LightBackground {
+    bottom: 0px;
+
+  left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(251, 251, 251, 0.405);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  @media (max-width: 800px) {
+    .uploadContainer{
+      width: 300px !important;
+
+    }
+    
+  }
+  .uploadContainer {
+    width: 800px;
+    height: 500px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+  }
+  
+  .uploadContainer .title {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  .line{
+  border-top: dotted 1px;
+  }
+  
+
+  
+ .footer {
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+   .footer button {
+    width: 150px;
+    height: 45px;
+    margin: 10px;
+    border: none;
+    background-color: cornflowerblue;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .uploadList{
+      flex: 3;
+  overflow-y: auto;
+
+  }
+
+
+
+

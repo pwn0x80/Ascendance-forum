@@ -1,0 +1,21 @@
+.select{
+  padding: 0.5em 0.00001em;
+  background: #535459;
+ appearance: none; 
+  color: white;
+  border: 0;
+  text-align: center;
+  border-radius: 1px;
+}
+
+.select:focus{
+  border: 0;
+  outline: none;
+}
+selectFilter{
+
+  height: 100px;
+}
+option{
+  size: 1em;
+}

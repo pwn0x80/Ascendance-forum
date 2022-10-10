@@ -1,0 +1,64 @@
+.Tooltip-Container {
+   position: relative;
+   display: inline-block;
+}
+.Tooltip-Content {
+   position: absolute;
+   left: 50%;
+   padding: 8px;
+   color: #ffffff;
+   background: #1a1a1a;
+   font-size: 0.85em;
+   border-radius: 6px;
+   transform: translateX(-50%);
+   z-index: 1;
+   white-space: nowrap;
+}
+.Tooltip-Content::before {
+   left: 50%;
+   position: absolute;
+   content: " ";
+   border: 6px solid transparent;
+   margin-left: -6px;
+}
+.Tooltip-Content.top {
+   top: -30px;
+}
+.Tooltip-Content.top::before {
+   top: 100%;
+   border-top-color: #1a1a1a;
+}
+/**
+* The following styles are
+* variations of the tooltip when you
+* change the value if the "direction" attribute
+* in the App component.
+*/
+.Tooltip-Content.right {
+   top: 50%;
+   left: calc(100% + 20px);
+   transform: translateY(-50%);
+}
+.Tooltip-Content.right::before {
+   top: 50%;
+   left: -6px;
+   transform: translateY(-50%);
+   border-right-color: #1a1a1a;
+}
+.Tooltip-Content.bottom::before {
+   bottom: 100%;
+   border-bottom-color: #1a1a1a;
+}
+.Tooltip-Content.left {
+   top: 50%;
+   right: calc(100% + 30px);
+   left: auto;
+   transform: translateY(-50%);
+}
+.Tooltip-Content.left::before {
+   top: 50%;
+   right: -12px;
+   left: auto;
+   transform: translateY(-50%);
+   border-left-color: #1a1a1a;
+}

@@ -1,0 +1,48 @@
+.listWrapper{
+  color: white;
+}
+/* tr td{ */
+/*   display: block; */
+/*   width: 100%; */
+/* } */
+/* tr{ */
+/*   background-color: gray; */
+/* } */
+/* thead> tr{ */
+/*   display: none; */
+/* } */
+/* td:before{ */
+/*   content: attr(datalabel); */
+/*   padding-right: 10px; */
+/*    */
+/* } */
+.title{
+  
+  width: min(30vw, 15rem);
+}
+.college{
+ width: min(30vw, 10rem);
+
+}
+thead {
+    font-weight: bold;
+  background-color: hsl(0deg 1% 47%);
+  
+
+  text-transform: uppercase;
+
+}
+
+.flag{
+ width: 2rem;
+  text-align: center;
+  
+
+}
+
+.paginationcss{
+  width: 100%;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
